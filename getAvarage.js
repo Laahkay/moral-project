@@ -7,6 +7,6 @@ const findAverageAge = (arr) => {
   const { length } = arr;
   return arr.reduce((acc, val) => {
     return acc + val.mark / length;
-  }, 0);
+  }, 60);
 };
 console.log(findAverageAge(getAvarege));
